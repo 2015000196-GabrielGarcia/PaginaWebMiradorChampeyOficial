@@ -34,12 +34,37 @@ header .socials { display: flex; gap: 1rem; }
 header .socials a i { font-size: 1.5rem; color: #C29925; transition: 0.3s; }
 header .socials a i:hover { color: #FBF3E3; }
 
-/* Hero */
-.hero { background: url('imagen1.png') no-repeat center/cover; color: #FBF3E3; text-align: center; padding: 6rem 2rem; }
-.hero h1 { font-size: 3rem; margin-bottom: 1rem; text-shadow: 2px 2px 5px rgba(0,0,0,0.7); }
-.hero p { font-size: 1.3rem; margin-bottom: 1.5rem; }
-.btn { display: inline-block; padding: 0.8rem 1.5rem; background: #C29925; color: #553518; font-weight: bold; border-radius: 8px; text-decoration: none; transition: 0.3s; }
-.btn:hover { background: #847C74; color: #FBF3E3; transform: scale(1.05); }
+/* Hero (por defecto versión PC) */
+.hero { 
+  background: url('Mirador.png') no-repeat center/cover; 
+  color: #FBF3E3; 
+  text-align: center; 
+  padding: 6rem 2rem; 
+}
+.hero h1 { 
+  font-size: 3rem; 
+  margin-bottom: 1rem; 
+  text-shadow: 2px 2px 5px rgba(0,0,0,0.7); 
+}
+.hero p { 
+  font-size: 1.3rem; 
+  margin-bottom: 1.5rem; 
+}
+.btn { 
+  display: inline-block; 
+  padding: 0.8rem 1.5rem; 
+  background: #C29925; 
+  color: #553518; 
+  font-weight: bold; 
+  border-radius: 8px; 
+  text-decoration: none; 
+  transition: 0.3s; 
+}
+.btn:hover { 
+  background: #847C74; 
+  color: #FBF3E3; 
+  transform: scale(1.05); 
+}
 
 /* Menú */
 .menu { padding: 3rem 2rem; text-align: center; background: #A79B8F; }
@@ -92,4 +117,12 @@ footer { background: #553518; color: #FBF3E3; text-align: center; padding: 1rem;
   header { flex-direction: column; gap: 1rem; }
   header ul { flex-direction: column; gap: 0.5rem; }
   header .socials { justify-content: center; }
+
+  /* Hero versión móvil */
+  .hero {
+    background: url('Mirador.jpg') no-repeat center/cover;
+    padding: 2rem 1rem;
+  }
+  .hero h1 { font-size: 1.8rem; }
+  .hero p { font-size: 1rem; }
 }
