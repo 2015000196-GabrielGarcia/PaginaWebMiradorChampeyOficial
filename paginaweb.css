@@ -120,9 +120,10 @@ footer { background: #553518; color: #FBF3E3; text-align: center; padding: 1rem;
 
   /* Hero versión móvil */
   .hero {
-    background: url('Mirador.jpg') no-repeat center/cover;
+    background: url('Mirador.png') no-repeat center/cover;
     padding: 2rem 1rem;
   }
   .hero h1 { font-size: 1.8rem; }
   .hero p { font-size: 1rem; }
 }
+
